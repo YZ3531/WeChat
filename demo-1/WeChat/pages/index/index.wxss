@@ -1,0 +1,60 @@
+/**index.wxss**/
+page{
+  background-color: #F0F0F0 ;
+}
+
+/* 轮播图 */
+.swp{
+  height: 320rpx;
+}
+image{
+  width: 750rpx;
+  height: 320rpx;
+}
+
+/* 标题样式 */
+.title{
+  font-size: 28rpx;
+  line-height: 1;
+  padding: 20rpx 30rpx;
+  font-weight: 700;
+  color: #3C3C3C;
+}
+
+/* 列表样式 */
+.item{
+  width: 750rpx;
+  height: 500rpx;
+  margin-bottom: 20rpx;
+}
+.item image{
+  display: block;
+}
+.item .content{
+  position: relative;
+  height: 180rpx;
+  background-color: #fff;
+}
+.item .name{
+  color: #3C3C3C;
+  font-size: 30rpx;
+  padding: 16rpx 30rpx 32rpx;
+  width: 550rpx;
+}
+.item .times{
+  color: #B4B4B4;
+  font-size: 22rpx;
+  position: absolute;
+  bottom: 22rpx;
+  left: 30rpx;
+}
+.item .times text{
+  margin-right: 39rpx;
+}
+.item .status{
+  color: #FE6249;
+  font-size: 30rpx;
+  position: absolute;
+  right: 30rpx;
+  top: 20rpx;
+}

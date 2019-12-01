@@ -1,0 +1,50 @@
+/* pages/user/index.wxss */
+form{
+  padding: 0 30rpx;
+  display: block;
+}
+.item{
+  display: flex;
+  height: 100rpx;
+  line-height: 100rpx;
+  box-sizing: border-box;
+  border-bottom: 2rpx solid #F0F0F0;
+}
+.item label{
+  font-size: 28rpx;
+  color: #3c3c3c;
+  width: 100rpx;
+}
+.item input{
+  /* background-color: red; */
+  flex: 1;
+  height: 100rpx;
+  font-size: 28rpx;
+  color: #000;
+  /* text-align: right; */
+}
+.placeholder{
+  color: #C9C9C9;
+}
+.item .btn{
+  width: 192rpx;
+  height: 72rpx;
+  line-height: 72rpx;
+  background-color:#45B8FF;
+  font-size: 24rpx;
+  color: #fff;
+  border-radius: 70rpx;
+  margin-left: 100rpx;
+  margin-top: 14rpx;
+  display: block;
+}
+.login{
+  width: 640rpx;
+  height: 100rpx;
+  line-height: 100rpx;
+  margin-top: 40rpx;
+  background-color: #FECA49;
+  color: #fff;
+  font-size: 32rpx;
+  font-weight: 700;
+}

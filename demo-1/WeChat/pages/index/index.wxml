@@ -1,0 +1,103 @@
+<!--index.wxml-->
+
+<!-- 轮播图区域 -->
+<swiper class="swp" indicator-dots indicator-color="rgba(255,255,255,.6)" indicator-active-color="#fff" autoplay interval="2000" circular easeInOutCubic>
+
+  <swiper-item>
+    <navigator url="">
+      <image src="/static/uploads/slide_1.jpg"></image>
+    </navigator>
+  </swiper-item>
+
+  <swiper-item>
+    <navigator url="">
+      <image src="/static/uploads/slide_2.jpg"></image>
+    </navigator>
+  </swiper-item>
+
+  <swiper-item>
+    <navigator url="">
+      <image src="/static/uploads/slide_3.jpg"></image>
+    </navigator>
+  </swiper-item>
+
+  <swiper-item>
+    <navigator url="">
+      <image src="/static/uploads/slide_4.jpg"></image>
+    </navigator>
+  </swiper-item>
+
+  <swiper-item>
+    <navigator url="">
+      <image src="/static/uploads/slide_5.jpg"></image>
+    </navigator>
+  </swiper-item>
+</swiper>
+
+<!-- 标题区域 -->
+<view class="title">乐园活动</view>
+
+<!-- 列表区域 -->
+<view class="item">
+  <navigator url="">
+    <!-- 图片 -->
+    <image src="/static/uploads/item_1.png"></image>
+    <!-- 内容 -->
+    <view class="content">
+      <view class="name">疯狂的红包 不一样的撕名牌 大型家庭亲子户外活动</view>
+      <view class="times">
+        <text class="icon-user">200人已报名</text>
+        <text class="icon-clock">本周六开始</text>
+      </view>
+      <view class="status">免费</view>
+    </view>
+  </navigator>
+</view>
+
+<view class="item">
+  <navigator url="">
+    <!-- 图片 -->
+    <image src="/static/uploads/item_2.png"></image>
+    <!-- 内容 -->
+    <view class="content">
+      <view class="name">摄影兴趣班- 7天教会你精通摄影，培养孩子兴趣从娃娃抓起</view>
+      <view class="times">
+        <text>200人已报名</text>
+        <text>本周六开始</text>
+      </view>
+      <view class="status">免费</view>
+    </view>
+  </navigator>
+</view>
+
+<view class="item">
+  <navigator url="">
+    <!-- 图片 -->
+    <image src="/static/uploads/item_3.png"></image>
+    <!-- 内容 -->
+    <view class="content">
+      <view class="name">疯狂的红包 不一样的撕名牌 大型家庭亲子户外活动</view>
+      <view class="times">
+        <text>200人已报名</text>
+        <text>本周六开始</text>
+      </view>
+      <view class="status">免费</view>
+    </view>
+  </navigator>
+</view>
+
+<view class="item">
+  <navigator url="">
+    <!-- 图片 -->
+    <image src="/static/uploads/item_4.png"></image>
+    <!-- 内容 -->
+    <view class="content">
+      <view class="name">疯狂的红包 不一样的撕名牌 大型家庭亲子户外活动</view>
+      <view class="times">
+        <text>200人已报名</text>
+        <text>本周六开始</text>
+      </view>
+      <view class="status">免费</view>
+    </view>
+  </navigator>
+</view>
