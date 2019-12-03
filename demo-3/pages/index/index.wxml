@@ -1,0 +1,24 @@
+<!--index.wxml-->
+<view class="viewport">
+  <!-- 头像 -->
+  <view class="preview">
+    <image mode="aspectFit" src="{{photo}}"></image>
+  </view>
+  <!-- 信息 -->
+  <view class="result" wx:if="{{user}}">
+    <view>年龄 : {{user.age}}</view>
+    <view>性别 : {{user.gender>=50?"男":"女"}}</view>
+    <view>表情 : {{user.expression<50?"呵呵":"哈哈"}}</view>
+    <view>魅力 : {{user.beauty}}</view>
+  </view>
+  <view class="result" wx:else>
+    <view>年龄 : 暂无数据</view>
+    <view>性别 : 暂无数据</view>
+    <view>表情 : 暂无数据</view>
+    <view>魅力 : 暂无数据</view>
+  </view>
+  <!-- 按钮 -->
+  <view class="btn">
+    <button type="primary" bind:tap="upload">上传图片</button>
+  </view>
+</view>

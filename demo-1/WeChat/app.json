@@ -1,13 +1,13 @@
 {
   "pages": [
     "pages/user/index",
-    "pages/ticket/index",
-    "pages/index/index"
+    "pages/index/index",
+    "pages/ticket/index"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#000",
-    "navigationBarTitleText": "游乐园",
+    "navigationBarTitleText": "小园",
     "navigationBarTextStyle": "white",
     "enablePullDownRefresh" :true
   },

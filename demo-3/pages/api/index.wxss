@@ -1,0 +1,4 @@
+/* pages/api/index.wxss */
+button{
+  margin: 20rpx
+}

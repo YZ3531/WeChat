@@ -21,9 +21,9 @@
 		}
 	},
 	"compileType": "miniprogram",
-	"libVersion": "2.0.4",
+	"libVersion": "2.9.4",
 	"appid": "wxb45cff311ce8397a",
-	"projectname": "demo",
+	"projectname": "AI%E8%AF%86%E5%88%AB",
 	"debugOptions": {
 		"hidedInDevtools": []
 	},
@@ -39,13 +39,35 @@
 			"current": -1,
 			"list": []
 		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
 		"game": {
 			"currentL": -1,
 			"list": []
 		},
-		"miniprogram": {
+		"gamePlugin": {
 			"current": -1,
 			"list": []
+		},
+		"miniprogram": {
+			"current": -1,
+			"list": [
+				{
+					"id": -1,
+					"name": "生命周期",
+					"pathName": "pages/life/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "API示例",
+					"pathName": "pages/api/index",
+					"scene": null
+				}
+			]
 		}
 	}
 }

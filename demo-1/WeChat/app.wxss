@@ -5,11 +5,11 @@ image{
 
 @font-face {
   font-family: 'icomoon';
-  src:  url('/static/fonts/icomoon.eot?lzaqut');
-  src:  url('/static/fonts/icomoon.eot?lzaqut#iefix') format('embedded-opentype'),
-  url('/static/fonts/icomoon.ttf?lzaqut') format('truetype'),
-  url('/static/fonts/icomoon.woff?lzaqut') format('woff'),
-  url('/static/fonts/icomoon.svg?lzaqut#icomoon') format('svg');
+  src:  url('https://yz3531.github.io/WeChat/demo-1/Static/fonts/icomoon.eot?lzaqut');
+  src:  url('https://yz3531.github.io/WeChat/demo-1/Static/fonts/icomoon.eot?lzaqut#iefix') format('embedded-opentype'),
+  url('https://yz3531.github.io/WeChat/demo-1/Static/fonts/icomoon.ttf?lzaqut') format('truetype'),
+  url('https://yz3531.github.io/WeChat/demo-1/Static/fonts/icomoon.woff?lzaqut') format('woff'),
+  url('https://yz3531.github.io/WeChat/demo-1/Static/fonts/icomoon.svg?lzaqut#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }

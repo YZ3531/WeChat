@@ -1,6 +1,6 @@
 <!--pages/user/index.wxml-->
 <!-- 个人中心 -->
-<form>
+<form wx:if="{{show}}">
   <view class="item">
     <label>姓名:</label>
     <input placeholder="请填写您的真实姓名" placeholder-class="placeholder"></input>
@@ -21,5 +21,8 @@
     <input placeholder="六位数字验证码" maxlength="6" placeholder-class="placeholder"></input>
     <button class="btn">获取验证码</button>
   </view>
-  <button class="login">绑定并登陆</button>
+  <button class="login" bindtap="login">绑定并登陆</button>
 </form>
+
+<!-- 进度条 -->
+<progress wx:else percent="{{num}}" class="jindu" bindtap="sudu"></progress>

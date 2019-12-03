@@ -1,0 +1,7 @@
+<!--pages/api/index.wxml-->
+<button type="primary" bind:tap="gerMore">获取更多</button>
+<button type="primary" bind:tap="delete">删除</button>
+<button type="primary" bind:tap="add">添加</button>
+<button type="primary" bind:tap="update">选择</button>
+<button type="primary" bind:tap="upfile">上传图片</button>
+<image src="{{img}}"></image>

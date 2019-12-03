@@ -1,0 +1,28 @@
+.viewport{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.viewport .preview{
+  height: 640rpx;
+}
+.viewport .preview image{
+  width: 100%;
+  height: 100%;
+}
+.viewport .result {
+  padding: 30rpx 0;
+  flex: 1;
+  padding-left: 250rpx;
+  display: flex;
+  flex-direction: column;
+}
+.viewport .result view{
+  flex: 1;
+}
+.viewport .btn{
+  height: 150rpx;
+  padding: 0 100rpx;
+}
